@@ -16,6 +16,8 @@ Esta extensão do Burp Suite detecta possíveis vulnerabilidades de HTTP Verb Ta
 3. A extensão interceptará a requisição e a enviará como uma requisição GET.
 4. Se o servidor responder com um código de status 2XX, um problema será criado indicando possíveis HTTP Verb Tampering.
 
+**Observação:** Para testar a extensão, é necessário ter um servidor web local ou online. Recomendamos o uso do servidor web de teste `Servidorweb.py`, que pode ser executado localmente na porta 8000.
+
 ### Aviso
 Esta extensão é fornecida como está e não garante detectar todas as instâncias de HTTP Verb Tampering apenas de `POST` para `GET`. 
 
