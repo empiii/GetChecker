@@ -21,7 +21,7 @@ Esta extensão criado para o Burp Suite detecta possíveis vulnerabilidades de H
 ### Aviso
 Esta extensão é fornecida como está e não garante detectar todas as instâncias de HTTP Verb Tampering apenas de `POST` para `GET`. 
 
-# Resultados
+# PoC
 
 https://github.com/empiii/GetChecker/assets/47393806/5ed0ebcb-2dbd-4098-a2f5-291c45c07146
 
