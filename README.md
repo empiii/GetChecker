@@ -1,7 +1,7 @@
 ## Extensão do Burp Suite: GET Checker
 
 ### Descrição
-Esta extensão do Burp Suite detecta possíveis vulnerabilidades de HTTP Verb Tampering. Ela intercepta requisições POST e as envia como requisições GET para verificar se o servidor responde com um código de status da Fámilia 2XX, indicando que o servidor aceita tanto requisições POST quanto GET para o mesmo recurso.
+Esta extensão criado para o Burp Suite detecta possíveis vulnerabilidades de HTTP Verb Tampering. Ela intercepta requisições POST e as envia como requisições GET para verificar se o servidor responde com um código de status da Fámilia 2XX, indicando que o servidor aceita tanto requisições POST quanto GET para o mesmo recurso.
 
 ### Instalação
 1. Baixe o arquivo `GETChecker.py`.
@@ -20,4 +20,8 @@ Esta extensão do Burp Suite detecta possíveis vulnerabilidades de HTTP Verb Ta
 
 ### Aviso
 Esta extensão é fornecida como está e não garante detectar todas as instâncias de HTTP Verb Tampering apenas de `POST` para `GET`. 
+
+# Resultados
+
+https://github.com/empiii/GetChecker/assets/47393806/5ed0ebcb-2dbd-4098-a2f5-291c45c07146
 
